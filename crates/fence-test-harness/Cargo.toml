@@ -1,0 +1,11 @@
+[package]
+name = "fence-test-harness"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+fence-core = { workspace = true }
+fence-runtime = { workspace = true }
+tempfile = { workspace = true }

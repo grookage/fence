@@ -1,0 +1,28 @@
+[workspace]
+members = [
+    "crates/fence-core",
+    "crates/fence-runtime",
+    "crates/fence-test-harness",
+    "crates/fence-alloc",
+    "crates/fence-config",
+    "crates/fenced",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.75"
+license = "MIT"
+
+[workspace.dependencies]
+fence-core = { path = "crates/fence-core" }
+fence-runtime = { path = "crates/fence-runtime" }
+fence-test-harness = { path = "crates/fence-test-harness" }
+fence-alloc = { path = "crates/fence-alloc" }
+fence-config = { path = "crates/fence-config" }
+libc = "0.2"
+crc32fast = "1"
+tempfile = "3"
+toml = "0.8"
+serde = { version = "1", features = ["derive"] }
+clap = { version = "4", features = ["derive"] }

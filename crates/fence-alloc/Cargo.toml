@@ -1,0 +1,12 @@
+[package]
+name = "fence-alloc"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+fence-core = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

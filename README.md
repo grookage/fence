@@ -56,4 +56,4 @@ Rust 1.75+ required (`AtomicU64::from_ptr`).
 
 ## License
 
-MIT
+Apache 2.0, see LICENSE.
